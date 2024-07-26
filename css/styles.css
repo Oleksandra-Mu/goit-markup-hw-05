@@ -831,5 +831,6 @@ input[type="checkbox"]:checked + .modal-concent > .modal-checkbox {
     margin: auto;
     display: block;
     min-width: 169px;
-    height: 56px
+    height: 56px;
+    transition: background-color var(--anim-fast); 
 }
