@@ -802,15 +802,15 @@ header {
 }
 
 input[type="checkbox"]:checked + .modal-concent > .modal-checkbox {
-    border-color: var(--pressed-state-color);
+    /* border-color: var(--pressed-state-color); */
     background-color: var(--pressed-state-color);
     border: none;
     fill: var(--light-color);
 }
 
-input[type='checkbox']:focus-visible + .modal-concent  .modal-checkbox {
+/* input[type='checkbox']:focus-visible + .modal-concent  .modal-checkbox {
     box-shadow: 0 0 0 1px rgb(var(--navy-blue-rgb)/ 45%);
-}
+} */
 
 .modal-concent {
     font-weight: 400;
