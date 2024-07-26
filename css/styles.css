@@ -624,7 +624,7 @@ header {
     margin-left: 16px;
 }
 
-.backdrop {
+.backdrop.is-open {
     position: fixed;
     top: 0;
     left: 0;
@@ -807,6 +807,10 @@ input[type="checkbox"]:checked + .modal-concent > .modal-checkbox {
     background-color: var(--pressed-state-color);
     border: none;
     fill: var(--light-color);
+}
+
+input[type='checkbox']:focus-visible + .modal-concent  .modal-checkbox {
+    box-shadow: 0 0 0 1px rgb(var(--navy-blue-rgb)/ 45%);
 }
 
 .modal-concent {
