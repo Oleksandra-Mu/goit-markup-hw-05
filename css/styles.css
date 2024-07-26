@@ -21,7 +21,6 @@
     /* Fonts */
     --main-font: "Roboto", sans-serif;
     --brand-font: "Raleway", sans-serif;
-    
     --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     box-sizing: border-box;
@@ -659,8 +658,7 @@ header {
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     transform: translate(-50%, -50%);
-    transition-property: transform;
-    transition: var(--anim-fast);
+    transition: transform var(--anim-fast);
 }
 
 .close-button {
