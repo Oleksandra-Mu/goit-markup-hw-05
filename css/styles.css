@@ -624,7 +624,7 @@ header {
     margin-left: 16px;
 }
 
-.backdrop.is-open {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
