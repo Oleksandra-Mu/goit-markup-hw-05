@@ -117,6 +117,7 @@
             <ul class="team-list">
               <li class="list-style">
                 <img
+                    srcset="./images/team_members/img-3.jpg 1x, ./images/team_members/img-3@2x.jpg 2x"
                     src="./images/team_members/img-3.jpg"
                     alt="Team member 1 image"
                     width="264"
@@ -162,6 +163,7 @@
               </li>
               <li class="list-style">
                 <img
+                    srcset="./images/team_members/img-2.jpg 1x, ./images/team_members/img-2@2x.jpg 2x"
                     src="./images/team_members/img-2.jpg"
                     alt="Team member 2 image"
                     width="264"
@@ -207,6 +209,7 @@
               </li>
               <li class="list-style">
                 <img
+                    srcset="./images/team_members/img-1.jpg 1x, ./images/team_members/img-1@2x.jpg 2x"
                     src="./images/team_members/img-1.jpg"
                     alt="Team member 3 image"
                     width="264"
@@ -252,6 +255,7 @@
               </li>
               <li class="list-style">
                 <img
+                    srcset="./images/team_members/img.jpg 1x, ./images/team_members/img@2x.jpg 2x"
                     src="./images/team_members/img.jpg"
                     alt="Team member 4 image"
                     width="264"
@@ -305,12 +309,43 @@
             <ul class="product-list">
               <li class="product-item">
                 <div class="box">
-                  <img
-                    src="./images/portfolio/img-1.jpg"
-                    alt="item 1 - banking app"
-                    width="360"
-                    height="300"
-                  />
+
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img-1.jpg 1x,
+                        ./images/portfolio/img-1@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/imgtab-1.jpg 1x,
+                        ./images/portfolio/imgtab-1@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/imgmob-1.jpg 1x,
+                        ./images/portfolio/imgmob-1@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="img-class"
+                      src="./images/portfolio/img-1.jpg"
+                      alt="Card Content Portfolio"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
+
+
+
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                 <div class="product-textcard">
@@ -320,12 +355,41 @@
               </li>
               <li class="product-item">
                 <div class="box">
-                  <img
-                    src="./images/portfolio/img-2.jpg"
-                    alt="item 2 image - cashless payment"
-                    width="360"
-                    height="300"
-                  />
+
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img-2.jpg 1x,
+                        ./images/portfolio/img-2@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/imgtab-2.jpg 1x,
+                        ./images/portfolio/imgtab-2@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/imgmob-2.jpg 1x,
+                        ./images/portfolio/imgmob-2@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="img-class"
+                      src="./images/portfolio/img-2.jpg"
+                      alt="Card Content Portfolio"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
+
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                 <div class="product-textcard">
@@ -335,12 +399,41 @@
               </li>
               <li class="product-item">
                 <div class="box">
-                  <img
-                    src="./images/portfolio/img-3.jpg"
-                    alt="item 3 image - medication app"
-                    width="360"
-                    height="300"
-                  />
+
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img-3.jpg 1x,
+                        ./images/portfolio/img-3@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/imgtab-3.jpg 1x,
+                        ./images/portfolio/imgtab-3@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/imgmob-3.jpg 1x,
+                        ./images/portfolio/imgmob-3@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="img-class"
+                      src="./images/portfolio/img-3.jpg"
+                      alt="Card Content Portfolio"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
+
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                 <div class="product-textcard">
@@ -350,12 +443,40 @@
               </li>
               <li class="product-item">
                 <div class="box">
-                  <img
-                    src="./images/portfolio/img-4.jpg"
-                    alt="item 4 image - taxi"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img-4.jpg 1x,
+                        ./images/portfolio/img-4@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/imgtab-4.jpg 1x,
+                        ./images/portfolio/imgtab-4@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/imgmob-4.jpg 1x,
+                        ./images/portfolio/imgmob-4@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="img-class"
+                      src="./images/portfolio/img-4.jpg"
+                      alt="Card Content Portfolio"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
+
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                 <div class="product-textcard">
@@ -365,12 +486,40 @@
               </li>
               <li class="product-item">
                 <div class="box">
-                  <img
-                    src="./images/portfolio/img-5.jpg"
-                    alt="item 5 image - screen illustrations"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img-5.jpg 1x,
+                        ./images/portfolio/img-5@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/imgtab-5.jpg 1x,
+                        ./images/portfolio/imgtab-5@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/imgmob-5.jpg 1x,
+                        ./images/portfolio/imgmob-5@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="img-class"
+                      src="./images/portfolio/img-5.jpg"
+                      alt="Card Content Portfolio"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
+
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                 <div class="product-textcard">
@@ -380,13 +529,40 @@
               </li>
               <li class="product-item">
                 <div class="box">
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img-6.jpg 1x,
+                        ./images/portfolio/img-6@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/imgtab-6.jpg 1x,
+                        ./images/portfolio/imgtab-6@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/imgmob-6.jpg 1x,
+                        ./images/portfolio/imgmob-6@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="img-class"
+                      src="./images/portfolio/img-6.jpg"
+                      alt="Card Content Portfolio"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
 
-                  <img
-                  src="./images/portfolio/img-6.jpg"
-                  alt="item 6 image - online courses"
-                  width="360"
-                  height="300"
-                  />
                   <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
                 <div class="product-textcard">
